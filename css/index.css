@@ -51,7 +51,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(../images/rockOn_dark.jpg);
+  background-image: url(../images/cooking.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
