@@ -38,14 +38,14 @@ p {
 
 /* Navigation dropdown menu */
 .dropdown-menu {
-  background: url("../images/transparency.png");
+  background: url("../images/transparency2.png");
   background-color: transparent !important;
   background-size: cover;
 }
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
+    color: #c42734;
     text-decoration: none;
-    background: black;
+    background:#c42734;
 }
 
 /* Navigation links */
