@@ -1,10 +1,11 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;;
 }
 p {
-  font-family: 'Jura', sans-serif;
-}
+  font-family: font-family: 'Lexend', sans-serif;
+  }
+
 
 /* Navigation bar */
 
@@ -12,8 +13,8 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+  background: url("../images/transparency2.png");
+  background-color: red;
   background-size: cover;
   z-index: 10;
 }
@@ -24,7 +25,13 @@ p {
 .navbar-brand img {
   padding-right: 15px;
   width: 65px;
-}
+ }
+
+ .navbar-brand{
+  font-family: 'Sansita Swashed', cursive;
+} 
+ 
+
 .nav-item {
   margin: 0px 15px;
 }
@@ -44,10 +51,11 @@ p {
 /* Navigation links */
 .customNav a {
   color: white !important;
+ 
 }
 .navCTA {
   font-size: 15px;
-}
+ }
 
 /* Jumbotron  */
 .jumbotron {
@@ -83,25 +91,16 @@ p {
   text-align: center;
 }
 
-/* Content */
-.sideAccent {
-  background: #007bff;
-  width: 15px;
-}
-.imageContainer img {
-  width: 100%;
-}
-.imageContainer {
-  padding: 50px;
-}
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.btn {
+  color: #FFFFFF;
+  background-color: #fd4755;
+  border-color:#fd4755; 
+  font-family: 'Lexend', sans-serif;
 }
 
 /* Footer */
 .emailContain {
-  background: url(../images/emailBG.jpg);
+  background:;
   background-size: cover;
   display: flex;
   align-items: center;
